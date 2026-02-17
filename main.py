@@ -39,5 +39,14 @@ perpus_informasi.tambah_buku(buku3)
 perpus_teknik.tampilkan_daftar_buku()
 print("-" * 20)
 
+# buku1.judul artinya kita ambil teks "Pemrograman Python"
+perpus_teknik.pinjam_buku(buku1.judul, anggota1) #simulasi pinjam
+# Cek status akan berubah menjadi dipinajam
+perpus_teknik.tampilkan_daftar_buku()
+print("-" * 20)
 
 
+perpus_teknik.kembalikan_buku(buku1.judul, anggota1) #simulasi kembalikan
+# Cek status akhir akan menjadi tersedia
+perpus_teknik.tampilkan_daftar_buku()
+print("-" * 20)
